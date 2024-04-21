@@ -1,0 +1,11 @@
+Module
+  name: game_jumpaction
+  description: Custom window for Question 7
+  author: Marius Uliu
+  website: https://github.com/Verevyta1/TFS_OTClient_CustomSpells
+  sandboxed: true
+  dependencies: [ game_interface ]
+  scripts: [ jumpaction ]
+  autoload: true
+  @onLoad: init()
+  @onUnload: terminate()

@@ -5,10 +5,6 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="support" spellid="998" name="Play A Jumping Game" words="jump" level="1" mana="1" premium="0" selftarget="1" cooldown="1000" groupcooldown="100" needlearn="0" script="custom/jumpGame.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
 	
 	<!-- Attack Spells -->
 	<instant group="attack" spellid="62" name="Annihilation" words="exori gran ico" level="110" mana="300" premium="1" range="1" needtarget="1" needweapon="1" cooldown="30000" groupcooldown="4000" needlearn="0" script="attack/annihilation.lua">
@@ -748,7 +744,10 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	
+	<instant group="support" spellid="998" name="Play A Jumping Game" words="jump" level="1" mana="1" premium="0" selftarget="1" cooldown="1000" groupcooldown="100" needlearn="0" script="custom/jumpGame.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
 
 	<!-- House Spells -->
 	<instant name="Edit Door" words="aleta grav" aggressive="0" script="house/edit_door.lua" />
